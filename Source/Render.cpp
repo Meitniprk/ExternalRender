@@ -89,7 +89,7 @@ namespace RenderUtil {
         Render::pIdl->AddRectFilled(ImVec2(textBlock->x - textSize.x / 2.0f, textBlock->y),
                                     ImVec2(textBlock->x - textSize.x / 2.0f + textBlock->width,
                                            textBlock->y + textBlock->height), IM_COL32(255, 153, 204, 180), 0);
-        Render::pIdl->AddText(Render::pRenderFont, 18, ImVec2(textBlock->x - textSize.x / 2.0f, textBlock->y),
+        Render::pIdl->AddText(Render::pRenderFont, 18, ImVec2(textBlock->x + 2.0f - textSize.x / 2.0f, textBlock->y),
                               IM_COL32(255, 255, 250, 255), text.data());
     }
 }

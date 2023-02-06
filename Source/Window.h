@@ -10,7 +10,7 @@
 
 #include "rapidjson/document.h"
 
-#define WINDOW_CLASS_NAME "Qt5152QWindowIcon"
+#define WINDOW_CLASS_NAME "GLFW30"
 
 namespace Window {
 
